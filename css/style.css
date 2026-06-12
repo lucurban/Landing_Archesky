@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container header {
+  display: flex;
+  width: 100%;
+  height: 6vw;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6vw;
+}
+
+.container header figure {
+  margin: 0;
+  padding-left: 8vw;
+}
+
+.container header figure img {
+  width: 8.9vw;
+  margin: 0;
+}
+
+header figcaption {
+  display: none;
+}
+
+header nav {
+  padding-right: 8vw;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  gap: 3vw;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Poppins";
+  color: #424241;
+  font-size: 0.8125rem;
+}
+
+header nav ul li a:hover {
+  color: black;
+}
+
+.container section.hero {
+  width: 41vw;
+  margin-left: 8vw;
+  margin-bottom: 3vw;
+}
+
+.container section.hero h1 {
+  font-family: "Bebas Neue";
+  font-size: 5.25rem;
+  color: #424241;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0.42vw;
+}
+
+.container section.hero h1 span {
+  font-family: "Bebas Neue";
+  font-size: 5.25rem;
+  color: #7edad2;
+  font-weight: 400;
+}
+
+.container section.hero p {
+  font-family: "Poppins";
+  color: #424241;
+  width: 37.4vw;
+  font-size: 1.05rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 2.1vw;
+}
+
+.container section.hero a {
+  display: inline-block;
+  padding: 0.9vw 1.8vw 0.9vw 1.8vw;
+  background-color: #7edad2;
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 0.8125rem;
+  text-align: center;
+  align-content: center;
+  margin-top: 0;
+  margin-bottom: 3vw;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.hero_number {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  gap: 4vw;
+  align-items: center;
+  margin-bottom: 3vw;
+}
+
+.hero_number li {
+  text-align: center;
+  font-family: "bebas neue";
+  font-size: 2.1rem;
+  font-weight: 400;
+  color: #424241;
+  margin-bottom: 2.2%;
+  list-style: none;
+}
+
+.hero_number li div {
+  font-family: "Poppins";
+  font-size: 0.7875rem;
+  font-weight: 400;
+  color: #909090;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 0;
+  gap: 1.7vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  background-color: transparent;
+}
+
+.services article {
+  width: 19.6vw;
+  padding: 1.9vw 2.3vw 1.7vw 1.7vw;
+  background-color: white;
+}
+
+.services article img {
+  width: 3vw;
+}
+
+.services article h3 {
+  font-family: "poppins";
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #424241;
+  text-align: left;
+  align-items: left;
+  width: 16vw;
+}
+
+.services article p {
+  font-family: "Poppins";
+  font-size: 0.7875rem;
+  font-weight: 400;
+  color: #909090;
+  width: 16vw;
+}
+
+.hero_img {
+  position: absolute;
+  top: 0;
+  left: 41.8vw;
+  width: 57vw;
+  height: 51vw;
+  background-color: #7edad2;
+  z-index: -1;
+}
+
+.hero_img div:first-child {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/mujer.png");
+  background-size: cover;
+  background-position: left bottom;
+  z-index: 0;
+}
+
+.hero_img div:nth-child(2) {
+  position: absolute;
+  width: 48vw;
+  height: 100%;
+  top: 1.5vw;
+  left: 5vw;
+  background-image: url("../images/rectangulo.png");
+  background-size: contain;
+  z-index: -1;
+}
+
+.hero_img div:last-child {
+  position: absolute;
+  width: 39vw;
+  height: 100%;
+  top: 6vw;
+  left: 9.5vw;
+  background-image: url("../images/rectangulo-1.png");
+  background-size: contain;
+  z-index: -1;
+}
