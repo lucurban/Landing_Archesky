@@ -6,7 +6,7 @@ A continuación se muestra el resultado final de la landing page desarrollada du
 
 El objetivo fue reproducir con la mayor fidelidad posible un diseño original en Figma, aplicando buenas prácticas de maquetación, estructura semántica y organización de estilos mediante HTML y CSS.
 
-![Vista previa de Archesky](images/archesky_result.png)
+![Vista previa de Archesky](assets/archesky_result.png)
 
 ## 📘 Descripción General
 
