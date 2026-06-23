@@ -267,3 +267,12 @@ Utilizar este proyecto como base para aprender herramientas y tecnologías más 
 * **React.**
 
 Estas mejoras permitirán seguir desarrollando habilidades relacionadas con la construcción de interfaces modernas, accesibles y adaptables a diferentes entornos.
+
+## 📫 Conecteme
+
+Si buscas a alguien con mentalidad de crecimiento, base técnica fuerte y compromiso real con el aprendizaje y el trabajo bien hecho, este perfil es un buen punto de partida.
+
+📨 lucurban@gmail.com  
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="20"/> +57 304 352 8449 
+
+Gracias por pasar por aquí ✨
